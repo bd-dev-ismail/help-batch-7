@@ -1,17 +1,24 @@
+*{
+    margin: 0;
+}
+/*header style*/
+header .contact-button{
+    border-style: none;
+    border-radius: 10px;
+}
 .banner{
     position: relative;
 
 }
 .header-title{
     position: absolute;
-    background-color: red;
     top: 150px;
     left: 700px;
     font-weight: 700;
     font-size: 50px;
 
 }
-.sub-title{
+nav .sub-title{
     position: absolute;
     top: 320px;
     left: 700px;
@@ -23,5 +30,148 @@
     left: 750px;
     height: 64px;
     width: 160px;
+    background-color: #FD6E0A;
 
 }
+/*main section style*/
+.section1-image{
+    position: relative;
+}
+.section-1 .section-title{
+    position: absolute;
+    top: 900px;
+    left: 1000px;
+    font-size: 50px;
+}
+.section-1 .sub-title{
+    position: absolute;
+    top: 1050px;
+    left: 1000px;
+    font-size: 20px;
+}
+.section-1 .description-1{
+    position: absolute;
+    top: 1300px;
+    left: 1000px;
+    font-size: 20px;
+}
+.section-1 .description-2{
+    position: absolute;
+    top: 1270px;
+    left: 1000px;
+    font-size: 20px;
+}
+.section-1 .description-3{
+    position: absolute;
+    top: 1240px;
+    left: 1000px;
+    font-size: 20px;
+}
+.section-1 .description-4{
+    position: absolute;
+    top: 1210px;
+    left: 1000px;
+    font-size: 20px;
+}
+.section-1 .description-5{
+    position: absolute;
+    top: 1180px;
+    left: 1000px;
+    font-size: 20px;
+}
+.section-1 .mark{
+    position: absolute;
+    top: 1180px;
+    left: 970px;
+    height: 24px;
+    width: 24px;
+     
+}
+.section-1 .mark-2{
+    position: absolute;
+    top: 1210px;
+    left: 970px;
+    height: 24px;
+    width: 24px;
+     
+}
+.section-1 .mark-3{
+    position: absolute;
+    top: 1240px;
+    left: 970px;
+    height: 24px;
+    width: 24px;
+     
+}
+.section-1 .mark-4{
+    position: absolute;
+    top: 1270px;
+    left: 970px;
+    height: 24px;
+    width: 24px;
+     
+}
+.section-1 .mark-5{
+    position: absolute;
+    top: 1300px;
+    left: 970px;
+    height: 24px;
+    width: 24px;
+     
+}
+/* section 2 style */
+.my-plane{
+    text-align: center;
+}
+.plan-description{
+    display: flex;
+
+}
+.plan-1{
+
+}
+section .plan-2{
+    border-left: 0;
+}
+/* section 3 style */
+.section-3{
+    margin-left: 210px;
+}
+.section-3{
+     position: relative; 
+     
+}
+.section-3 #image-stack-2{
+     position: absolute;
+     top: 0px;
+
+    }
+    .section-3 #heading-btn{
+        position: absolute;
+        top: 100px;
+        right: 800px;
+
+        
+    }
+.awlays{
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+/*footer style*/
+.footer{
+    /* background: black; */
+  
+
+}
+footer input{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+footer  .heading{
+    color: white;
+}
+footer .subscribe-section{
+    
+} */
