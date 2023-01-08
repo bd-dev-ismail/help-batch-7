@@ -1,7 +1,9 @@
 *{
     margin: 0;
+    position: a;
 }
 /*header style*/
+
 header .contact-button{
     border-style: none;
     border-radius: 10px;
@@ -12,42 +14,73 @@ header .contact-button{
 }
 .header-title{
     position: absolute;
-    top: 150px;
-    left: 700px;
+    top: 25%;
+    left: 65%;
     font-weight: 700;
     font-size: 50px;
-
+}
+nav img{
+    width: 100vw;
 }
 nav .sub-title{
+    width: 400px;
     position: absolute;
-    top: 320px;
-    left: 700px;
+    top: 43%;
+    left: 65%;
+    margin-top: 24px;
 
 }
 .contact-button{
     position: absolute;
-    top: 420px;
-    left: 750px;
+    top: 55%;
+    left: 65%;
     height: 64px;
     width: 160px;
     background-color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
 
 }
 /*main section style*/
-.section1-image{
+/* .section1-image{
     position: relative;
-}
-.section-1 .section-title{
+} */
+/* .section-1 .section-title{
     position: absolute;
     top: 900px;
     left: 1000px;
     font-size: 50px;
-}
-.section-1 .sub-title{
+} */
+/* .section-1 .sub-title{
     position: absolute;
     top: 1050px;
     left: 1000px;
     font-size: 20px;
+} */
+.section-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.section-info{
+    width: 420px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.sub-title{
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    
 }
 .section-1 .description-1{
     position: absolute;
@@ -79,14 +112,14 @@ nav .sub-title{
     left: 1000px;
     font-size: 20px;
 }
-.section-1 .mark{
+/* .section-1 .mark{
     position: absolute;
     top: 1180px;
     left: 970px;
     height: 24px;
     width: 24px;
      
-}
+} */
 .section-1 .mark-2{
     position: absolute;
     top: 1210px;
@@ -123,54 +156,103 @@ nav .sub-title{
 .my-plane{
     text-align: center;
 }
-.plan-description{
+.parent-plan{
     display: flex;
-
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0px;
 }
 .plan-1{
-
+    text-align: center;
+}
+.sub-plan{
+    color: #737272;
 }
 section .plan-2{
     border-left: 0;
 }
 /* section 3 style */
+
 .section-3{
-    margin-left: 210px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 120px;
+   position: relative;
 }
-.section-3{
-     position: relative; 
-     
-}
+
 .section-3 #image-stack-2{
      position: absolute;
      top: 0px;
 
     }
-    .section-3 #heading-btn{
-        position: absolute;
-        top: 100px;
-        right: 800px;
 
-        
-    }
 .awlays{
-    padding-bottom: 20px;
-    width: 50%;
+    font-size: 40px;
+    font-weight: 700px;
+    color: #fff;
+    margin-bottom: 24px;
 }
-
+.btn{
+    height: 64px;
+        width: 160px;
+        background-color: #FD6E0A;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+}
+.always-info{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
 /*footer style*/
-.footer{
-    /* background: black; */
-  
 
+.footer{
+    height: 400px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
 }
 footer input{
     padding: 10px;
     margin-bottom: 5px;
 }
-
+.footer-sub{
+    color: #fff;
+    margin-bottom: 24px;
+}
+.input-sub{
+    width: 325px;
+    height: 34px;
+    background: #000;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.social-section{
+    width: 450px;
+}
 footer  .heading{
     color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer-text{
+    color: #fff;
+    margin: 16px 0;
+}
+.subs{
+    color: #F15B22;
+    width: 170px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 8px;
 }
 footer .subscribe-section{
     
